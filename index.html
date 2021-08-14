@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Stellar Hotel</title>
+</head>
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close Menu" role="button">
+
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;">
+                <a href="#home">STELLAR</a>
+            </h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#location">Localização</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#pricing">Pacotes</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+       
+    </aside>
+   <div class="menu-spacing"></div>
+    
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Bem vindo ao Stellar Hotel</h2>
+                <p>Todos merecem uma boa estadia.<br>Desfrute dos melhores quartos com os melhores serviços.</p>
+            </div>
+            <div class="intro-img">
+                <img src="https://images.unsplash.com/photo-1455587734955-081b22074882?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="Área externa.">
+            </div>
+        </div>
+       
+    </section>
+
+    <section id="location" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Localização</h2>
+            <div class="pin-box">
+                <img id="pin" src="./assets/images/map-pin.png" alt="Pino de Localização">
+            </div>
+           
+            <p>Localizado na <strong>Av. Dom Pedro, 625</strong>, o Stellar Hotel conta com a melhor estadia de <strong>Petrolina</strong>.</p>
+            <p>A fim de proporcionar o maior conforto para os clientes, o Stellar Hotel conta com um bom atendimento e serviços eficazes</p>
+            
+        </div>
+    </section>
+
+    <section id="services" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Serviços</h2>
+            <p class="grid-description">Uma breve descrição:</p>
+
+            <div class="grid">
+                <article>
+                    <h3>Quartos</h3>
+                    <p>Os quartos da Stellar Hotel contam com um espaço abundante, TV com acesso a internet, mesa de jantar, ar-condicionados e refrigeradores para manter as suas bebidas. Além disso, é ressaltado o excelente padrão de higiene com osbanheiros que atendem todas as necessidades.
+                    </p>
+                </article>
+                
+                <article>
+                    <h3>Refeições</h3>
+                    <p>Café da manhã e almoço podem ser incluídos no pacote de hospedagem. Dessa forma é possível desfrutar de um ótimo refeitório que conta com uma boa disposição de mesas e grande variedade de alimentos. Tudo isso, gerido por competentes funcionários, buscando o bem-estar dos hóspedes.</p>
+                </article>
+
+                <article>
+                    <h3>Lazer</h3>
+                    <p>Na área de lazer do Stellar Hotel os hóspedes podem usufruir das vastas piscinas com diferentes profundidades, almejando o uso de adultos e crianças. Além disso, é possível utilizar os quiosques para solicitar bebidas e alimentos, tudo para o melhor aproveitamento da área de lazer.</p>
+                </article>
+               
+                
+            </div>
+            
+        </div>
+    </section>
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Galeria</h2>
+           
+
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://images.unsplash.com/photo-1592133308400-19f5da311e91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Quarto">
+                </div>
+                
+                <div class="gallery-img">
+                    <img src="https://images.unsplash.com/photo-1574643156929-51fa098b0394?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="Quarto">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://images.unsplash.com/photo-1521783593447-5702b9bfd267?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=521&q=80" alt="Banheiro">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://images.unsplash.com/photo-1625940949493-91ac054804e7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Café da manhã">
+                </div>
+                
+                <div class="gallery-img">
+                    <img src="https://images.unsplash.com/photo-1562536163-d5bb2c47f4df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=375&q=80" alt="Piscina">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://images.unsplash.com/photo-1564976703492-99c0d9bf4852?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=334&q=80" alt="Bebidas">
+                </div>
+               
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+
+        <div class="main-content top3-content">
+            <h2>Pacotes</h2>
+            <p>O Stellar Hotel possui os melhores pacotes com o melhor custo benefício. Todas as opções incluem todos os serviços do hotel já mencionados, sendo diferenciados os pacotes, que possuem benefícios extras.</p><br><p>O Silver conta com a hospedagem de 3 dias, enquanto o Gold se extende para 5 dias e o Platinum para 7 dias.</p><br> <p>Os três pacotes contam com a adição de open bar e open food </p> 
+          
+            
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing Table</caption>
+    
+                    <thead>
+                        <tr>
+                            <th>Diária</th>
+                            <th>Pacote Silver</th>
+                            <th>Pacote Gold</th>
+                            <th>Pacote Platinum</th>
+                            
+                        </tr>
+                       
+                    </thead>
+    
+                    <tbody>
+                        <tr>
+                            <td>R$ 159.99</td>
+                            <td>R$ 459.99</td>
+                            <td>R$ 659.99</td>
+                            <td>R$ 859.99</td>
+                        </tr>
+                       
+                        
+                    </tbody>
+    
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <h2 class="grid-main-heading">Contato</h2>
+            <div class="contact-form">
+                <fieldset class="form-display">
+                    <legend>Fale conosco</legend>
+
+                    <div class="form-group">
+                        <label for="first-name">Nome</label>
+
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu primeiro nome">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome</label>
+
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+
+                        <input type="email" name="email" id="email" placeholder="Seu E-mail">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                      <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+
+      
+       
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p><a href="">Feito com <span class="heart">❤</span> por Luis Felipe de Souza Nunes</a> </p>
+    </footer>
+
+    <a class="back-to-top" href="#">➤</a>
+</body>
+</html>
